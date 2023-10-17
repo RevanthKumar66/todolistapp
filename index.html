@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task Management System</title>
+</head>
+<body>
+    <div class="app-container">
+        <h1>Task Management System</h1>
+        <div class="input-container">
+            <input type="text" id="task" placeholder="Add a new task">
+            <select id="category">
+                <option value="website">Website</option>
+                <option value="project">Project</option>
+            </select>
+            <button id="add">Add Task</button>
+        </div>
+        <ul id="task-list">
+            <!-- Tasks will be added here dynamically -->
+        </ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
